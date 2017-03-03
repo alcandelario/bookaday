@@ -6,7 +6,7 @@ A React Native app that displays a suggested book to read as part of a Book A Da
 
 [CLICK HERE](https://raw.github.com/alcandelario/bookaday/master/BookADay.apk) to try the demo Android version now! (Assuming the Android device can install apps from unknown sources)
 
-![Screenshot](/sample.png?raw=true "BookADay Screenshot")
+![Screenshot](/screenshot.png?raw=true "BookADay Screenshot")
 
 IMPORTANT: The demo app is configured to send notifications every hour, not once a day.
 
