@@ -1,5 +1,5 @@
 <snippet>
-  <content><![CDATA[
+  <content>
 # Book-a-Day
 
 A React Native app that displays a suggested book to read as part of a Book A Day challenge. Integrates Amazon Affiliates API to retrieve related book information, images, links, etc.
@@ -58,6 +58,6 @@ TODO: Write credits
 The MIT License (MIT)
 
 Copyright (c) 2017 Al Candelario, <a.candelario@gmail.com>
-]]></content>
+</content>
   <tabTrigger>readme</tabTrigger>
 </snippet>
