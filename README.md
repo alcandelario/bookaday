@@ -23,9 +23,14 @@ View the "[Running on Device](https://facebook.github.io/react-native/docs/runni
 
 Due to RN version, you may get a "Strict Mode" error when loading on a device. To Fix:
 
+```
 open node_modules\react-native\Libraries\Core\InitializeCore.js line 112
-change function handleError(e, isFatal) to var handleError = function(e, isFatal)
+
+change from : function handleError(e, isFatal) 
+to : var handleError = function(e, isFatal)
+
 then do npm start -- --reset-cache
+```
 
 ## Usage
 
