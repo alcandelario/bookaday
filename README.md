@@ -4,7 +4,7 @@
 
 A React Native app that displays a suggested book to read as part of a Book A Day challenge, and links to Amazon for purchasing or downloading samples. 
 
-"[CLICK HERE](https://raw.github.com/alcandelario/bookaday/master/BookADay.apk)" to try the demo Android version now! (Assuming the Android device can install apps from unknown sources)
+[CLICK HERE](https://raw.github.com/alcandelario/bookaday/master/BookADay.apk) to try the demo Android version now! (Assuming the Android device can install apps from unknown sources)
 
 ![Screenshot](/sample.png?raw=true "BookADay Screenshot")
 
