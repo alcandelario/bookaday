@@ -2,15 +2,26 @@
   <content><![CDATA[
 # ${1:Book-a-Day}
 
-A simple RN app that displays a suggested book to read as part of a Book A Day challenge. Integrates Amazon Affiliates API to retrieve related book information, images, links, etc.
+A React Native app that displays a suggested book to read as part of a Book A Day challenge. Integrates Amazon Affiliates API to retrieve related book information, images, links, etc.
 
 ## Installation
+
+After cloning the repo, create a file called Credentials.json in ./app/config. The following parameters are required:
+
+```
+{
+  "SEARCH_URL"   : "https://www.amazon.com/s/?field-keywords=",
+  "ASSOC_KEY"    : "Your Amazon Associates Key",
+  "API_KEY"      : "Your Amazon Product Advertising API KEY",
+  "API_SECRET"   : "Your Amazon Product Advertising API SECRET"
+}
+```
 
 View the "[Running on Device](https://facebook.github.io/react-native/docs/running-on-device.html)" instructions in RN documentation
 
 ## Issues
 
-Due to project being renamed, npm cache issues seem to cause Red Screen of death that didn't exist on original project. To Fix:
+Due to RN version, you may get a "Strict Mode" error when loading on a device. To Fix:
 
 open node_modules\react-native\Libraries\Core\InitializeCore.js line 112
 change function handleError(e, isFatal) to var handleError = function(e, isFatal)
@@ -18,10 +29,13 @@ then do npm start -- --reset-cache
 
 ## Usage
 
-Click the "Start the Notifications" button to toggle on/off push notifications.
+Use the toggle switch to enable/disable notifications.
+
 The app will then create a new push notification roughly once a day (not exact as the background process that schedules notifications has a 15 minute resolution)
 
-Clicking on the title of the book will either open the Amazon shopping app (if installed, of course), or open the amazon website with search terms for the book if no matching book data could be retrieved from the Amazon Associates API.
+Using the slider you can browse the list of books, but if you leave the slider there, new book notifications will continue from that point onward.
+
+Clicking the "Find on Amazon" link to either be deep-linked into the Amazon Shopping App, or to Amazon's website if the appropriate data could not be retrieved to get the deep link from the Amazon Associates API.
 
 ## Contributing
 
