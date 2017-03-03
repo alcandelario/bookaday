@@ -2,9 +2,13 @@
   <content>
 # Book-a-Day
 
+CLICK HERE to try the demo Android version now! This assumes you can install apps from unknown sources.
+
+IMPORTANT: The demo app is configured to send notifications every hour, not once a day.
+
 A React Native app that displays a suggested book to read as part of a Book A Day challenge. Integrates Amazon Affiliates API to retrieve related book information, images, links, etc.
 
-## Installation
+## Setup
 
 After cloning the repo, create a file called Credentials.json in ./app/config. The following parameters are required:
 
@@ -15,6 +19,17 @@ After cloning the repo, create a file called Credentials.json in ./app/config. T
   "API_KEY"      : "Your Amazon Product Advertising API KEY",
   "API_SECRET"   : "Your Amazon Product Advertising API SECRET"
 }
+```
+
+You'll also want to adjust the notification interval from the demo setting of 1 hour:
+
+```
+Open ./app/NotificationsController.js
+
+on line 65, adjust the notification interval as needed (milliSeconds)
+20min = 1200000 
+60min = 3600000 
+24hrs = 86400000
 ```
 
 View the "[Running on Device](https://facebook.github.io/react-native/docs/running-on-device.html)" instructions in RN documentation
