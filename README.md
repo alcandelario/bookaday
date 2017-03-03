@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-# ${1:Book-a-Day}
+# Book-a-Day
 
 A React Native app that displays a suggested book to read as part of a Book A Day challenge. Integrates Amazon Affiliates API to retrieve related book information, images, links, etc.
 
