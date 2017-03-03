@@ -2,7 +2,7 @@
   <content>
 # Book-a-Day
 
-"[CLICK HERE](https://raw.githubusercontent.com/downloads/alcandelario/bookaday/BookADay.apk)" to try the demo Android version now! This assumes you can install apps from unknown sources.
+"[CLICK HERE](https://raw.github.com/alcandelario/bookaday/master/BookADay.apk)" to try the demo Android version now! This assumes you can install apps from unknown sources.
 
 IMPORTANT: The demo app is configured to send notifications every hour, not once a day.
 
