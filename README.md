@@ -64,5 +64,4 @@ The MIT License (MIT)
 
 Copyright (c) 2017 Al Candelario, <a.candelario@gmail.com>
 </content>
-  <tabTrigger>readme</tabTrigger>
 </snippet>
