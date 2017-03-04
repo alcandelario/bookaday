@@ -62,7 +62,7 @@ export default class NotificationsController extends Component {
     };
 
     // General-component params
-    this.NOTIFICATION_INTERVAL =  3600000;            //86400000; // 20min = 1200000 60min = 3600000ms 24hrs = 86400000ms;
+    this.NOTIFICATION_INTERVAL =  3600000;      // 20min = 1200000 60min = 3600000ms 24hrs = 86400000ms;
     this.NOTIFICATION_CHECK_INTERVAL =  90000;  // 1.5min = 90000 15min = 900000 24hrs = 86400000ms;
     this.DEFAULT_IMAGE_URL = './assets/images/defaultbook.jpg';
 
