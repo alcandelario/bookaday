@@ -1,7 +1,7 @@
 <snippet>
   <content>
 # Book-a-Day
-![Icon](/screenshot.png?raw=true "BookADay Icon")
+![Icon](/icon_bg.png?raw=true "BookADay Icon")
 
 A React Native app that displays a suggested book to read as part of a Book A Day challenge, and links to Amazon for purchasing or downloading samples. 
 
