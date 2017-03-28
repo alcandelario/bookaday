@@ -1,5 +1,3 @@
-<snippet>
-  <content>
 # Book-a-Day 
 
 ![AppIcon](/icon_small.png?raw=true "BookADay Icon")
@@ -82,5 +80,3 @@ TODO: Write credits
 The MIT License (MIT)
 
 Copyright (c) 2017 Al Candelario, <a.candelario@gmail.com>
-</content>
-</snippet>
